@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML Blog</title>
+</head>
+<body>
+<div id ="mainDiv">
+<div id="header"></div>
+<div id ="parentDiv">
+<div id="headBanner">
+<p id="higherPar">The</p>
+<h2>ANALOG</h2>
+<p id="lowerPar">SPECIALIST</p>
+</div>
+<div id="mainContent">
+<div id="menuContainer">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">FOR SALE</a></li>
+<li><a href="#">REPAIRS</a></li>
+<li><a href="#">ABOUT</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>
+</div>
+<div id="imgOne" class="floatClear"><img src="Desert.jpg"></div>
+<div id="imgTwo" class="floatClear"><img src="Desert.jpg"></div>
+<div id="imgThree" class="floatClear"><img src="Desert.jpg"></div>
+</div>
+<div id="footer">
+<code>We specialize in the sale and repair of classic keyboards, in particular the Fender Rhodes, Wurlitzer EP200, and Hohner Claviner.</code>
+</div>
+</div>
+<style>
+img{
+height: 100%;
+width: 100%;
+}
+.floatClear{
+clear: both;
+position: absolute;
+height: 230px;
+width: 210px;
+margin-top: 20px;
+}
+#imgTwo{
+left: 210px;
+}
+#imgThree{
+left: 420px;
+}
+#mainDiv{
+border: 1px solid black;
+width: 1000px;
+height: 600px;
+margin-left: 120px;
+background-color: #DADBDD;
+position: relative;
+}
+#header{
+height: 30px;
+background-color: black;
+width: 100%;
+}
+#parentDiv{
+border: 1px double black;
+background-color: white;
+margin: 10px 30px 30px 40px;
+width: 90%;
+height: 90%;
+position:relative;
+}
+#headBanner{
+margin-top: 20px;
+heigth:50px;
+width:110px;
+position: absolute;
+top: 0px;
+left: 340px;
+}
+p, h2{
+text-align: center;
+line-height: 0px;
+font-family: "Times New Roman", Serif;
+}
+h2{
+font-size: 2em;
+}
+#lowerPar{
+letter-spacing: 6px;
+}
+#higherPar{
+margin-left: 38px;
+}
+#mainContent{
+/*border: 1px solid black;*/
+height: 265px;
+width: 70%;
+position: absolute;
+top: 130px;
+left: 120px;
+}
+#menuContainer{
+height: 40px;
+width:100%;
+border-top: 1px solid black;
+border-bottom: 3px solid #DADBDD;
+}
+ul{
+list-style-type: none;
+margin-top: 15px;
+margin-left:20px;
+}
+a{
+text-decoration : none;
+display: block;
+float: left;
+margin-right: 50px;
+color: grey;
+font-size: 12px;
+letter-spacing: 2px;
+}
+a:hover{
+color: red;
+}
+#footer{
+width: 70%;
+height: 50px;
+border: 1px solid black;
+position: absolute;
+bottom: 40px;
+left: 120px;
+text-align: justify;
+letter-spacing: 2px;
+line-height: 20px;
+font-family: Calibri, Sans-serif;
+font-color: greyl
+}
+</style>
+</body>
+</html>
